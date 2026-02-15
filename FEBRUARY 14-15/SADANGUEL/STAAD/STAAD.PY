@@ -1,17 +1,3 @@
-from openstaadpy import os_analytical
-
-staad_obj = os_analytical.connect()
-
-if staad_obj is None:
-    print("staad object not found")
-    exit()
-
-staad_obj.NewSTAADFile(
-    r"C:\Users\User\Desktop\Study\FEBRUARY 14-15\AI-ASSISTED-PROGRAMMING-PROJECTS\FEBRUARY 14-15\SADANGUEL\STAAD\new_model.std",
-    4,
-    5
-)
-
 # This script requires empty model opened in STAAD.Pro.
 from openstaadpy import os_analytical
 
